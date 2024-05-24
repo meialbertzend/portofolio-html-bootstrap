@@ -1,0 +1,45 @@
+
+
+.jumbotron {
+    padding: 6rem 1rem;
+    background-color: #dbe3eb;
+}
+
+#portfolio {
+    background-color: #dbe3eb;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.social-link {
+    font-size: 20px; /* Membuat ikon lebih besar */
+    color: #333;
+    margin: 0 10px; /* Menambahkan margin di kiri dan kanan */
+
+}
+
+.social-link:hover {
+    color: #007bff; /* Ubah warna saat dihover */
+    transform: scale(1.2); /* Zoom in saat dihover */
+}
+
+.social-link i {
+    transition: color 0.3s ease;
+}
+
+.about-img .circle-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: .2rem solid var(--second-bg-color);
+    border-bottom: .2rem solid var(--second-bg-color);
+    border-left: .2rem solid var(--main-color);
+    border-right: .2rem solid var(--main-color);
+    animation: aboutSpinner 8s linear infinite;
+}
